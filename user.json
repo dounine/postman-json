@@ -1,0 +1,39 @@
+{
+	"variables": [],
+	"info": {
+		"name": "用户功能",
+		"_postman_id": "95e16cc5-3516-48ed-b4e1-15a9cf01e631",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "查看程序健康问题",
+			"request": {
+				"url": "localhost:7781/health",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "用户列表",
+			"request": {
+				"url": "localhost:7782/refresh",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic Og==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
